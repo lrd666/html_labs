@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Лабораторна 3</title>
+    <style>
+        th{
+            border: 1px solid black;
+        }
+        td{
+            
+            border: 1px solid black;
+           
+        }
+      .a1{
+        
+          width: 400px;
+          margin: 0 auto;
+          border: 1px solid black;
+          padding: 1px;
+      }
+      .a111{
+          padding: 1px;
+      }
+      .a12{
+          background-color: rgb(213, 213, 213);
+          border-radius: 2px;
+      }
+
+      .a3{ 
+          border: 1px solid black;
+          padding: 1px;
+
+      }
+      .a31{
+        width: 97%;
+        margin-left: 0.5%;
+      }
+      .a4{
+          border: 1px solid black;
+          padding: 1px;
+      }
+      #d3{
+          color: red;
+      }
+    </style>
+</head>
+<body>
+
+    
+    <figure class="a1" >
+        <form>
+        <table width="100%">
+            <tr >
+                <th colspan="2" style="font-family: Arial"> 
+                    Pizza shop 2.0
+                </th>
+            </tr>
+            <tr>
+                <td width="30%" style="font-family: Arial">
+                    Name <b id="d3"> *</b>
+                </td>
+                <td class="a111">
+                    <input  placeholder="Name" id="name"  required>
+                </td>
+            </tr>
+            <tr>
+            <td width="32%" style="font-family: Arial">
+                Pizza Topping <b id="d3"> *</b>
+            </td>
+            <td >
+                
+		    <input type="radio" required name="driver" id="r1" value="Supreme" style="font-family: Arial"><label for="r1">Supreme</label> <br>
+		    <input type="radio" required name="driver" id="r2" value="Vegetarian" style="font-family: Arial"><label for="r2">Vegetarian</label> <br>
+                    <input type="radio" required name="driver" id="r3" value="Hawaiian" style="font-family: Arial"><label for="r3">Hawaiian</label>
+                    
+        </tr>
+        <tr>
+        <td width="30%" style="font-family: Arial">
+            Pizza Sauce 
+        </td>
+        <td>
+            <select class="a12" style="font-family: Arial">
+                <option>Spicy Red Sauce</option>
+                <option>Peppery Red Sauce</option>
+                <option>Sweet Pizza Sauce</option>
+		<option>Pesto Sauce</option>
+		<option>Creamy Alfredo Sauce</option>
+		<option>Mayonnaise</option>
+            </select>
+        </td>
+    </tr>
+    <tr>
+        <td width="35%" style="font-family: Arial">
+            Optional Extras <b id="d3"> *</b>
+        </td>
+        <td>
+
+         
+                      <input type="checkbox" required name="driver" id="r4" value="Extra Cheese" style="font-family: Arial"><label for="r4">Extra Cheese</label> 
+                      <input type="checkbox" required name="driver" id="r5" value="Tomato" style="font-family: Arial"><label for="r5">Tomato</label> 
+                      <input type="checkbox" required name="driver" id="r6" value="Mushrooms" style="font-family: Arial"><label for="r6">Mushrooms</label> 
+		      <input type="checkbox" required name="driver" id="r7" value="Sausage" style="font-family: Arial"><label for="r7">Sausage</label> 
+                      <input type="checkbox" required name="driver" id="r8" value="Peppers" style="font-family: Arial"><label for="r8">Peppers</label> 
+                      <input type="checkbox" required name="driver" id="r9" value="Spinach" style="font-family: Arial"><label for="r9">Spinach</label> 
+                      <input type="checkbox" required name="driver" id="r10" value="Black Olives" style="font-family: Arial"><label for="r10">Black Olives</label> 
+                      <input type="checkbox" required name="driver" id="r11" value="Pesto" style="font-family: Arial"><label for="r11">Pesto</label> 
+                    <input type="checkbox" required name="driver" id="r12" value="Gluten Free Base" style="font-family: Arial"><label for="r12">Gluten Free Base</label>
+        </td>
+    </tr>
+            
+        </table>
+       
+    
+        
+        
+        
+        <div class="a3" style="font-family: Arial">
+            Delivery instructions: <b id="d3"> *</b>
+            <textarea placeholder="Delivery instructions:" class="a31" rows="3" autofocus required></textarea>
+        </div>
+        <div class="a4">
+            <input   type="submit" value="Send my Order" formnovalidate style="font-family: Arial">
+       
+    </form>
+</figure>
+</body>
+</html>
