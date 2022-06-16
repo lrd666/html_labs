@@ -1,3 +1,5 @@
+"Spacevim configuration
+
 if &compatible
       set nocompatible
   endif
